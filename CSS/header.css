@@ -1,0 +1,37 @@
+body {
+    font-family: title;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #01BAEF;
+    color: white;
+    text-shadow: 0px 1px 6px #00000034;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 1px 6px #00000034;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.header svg {
+    background-color: #0B4F6C;
+    color: white;
+    width: 40px;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+@font-face {
+    font-family: title;
+    src: url("../resources/Beyonders-6YoJM.ttf");
+}

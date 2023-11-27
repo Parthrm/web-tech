@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Event Horizon</title>
+</head>
+<body>
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-blue-300">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Event Horizon</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="homepage.php" class="mr-5 hover:text-gray-900">My Tasks</a>
+            <a href="../teams/teamshome.php" class="mr-5 hover:text-gray-900">Teams</a>
+            <a class="mr-5 hover:text-gray-900">Events</a>
+        </nav>
+    </div>
+    <div class="content"><div>
+            <div class="box">
+                <img src="resources/event.svg" width="130px" alt="event">
+                <div class="divider"></div>
+                <div>
+                    <span class="heading">Create Events</span><br>
+                    <span class="sub-text">Set Your Goals</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="resources/category.svg" width="130px" alt="category">
+                <div class="divider"></div>
+                <div>
+                    <span class="heading">Create Categories</span><br>
+                    <span class="sub-text">Group Your Events for better Organization</span>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="resources/team.svg" width="130px" alt="event">
+                <div class="divider"></div>
+                <div>
+                    <span class="heading">Build Team</span>
+                    <br>
+                    <span class="sub-text">Managing a team made easier by assigning each participant work</span>
+                </div>
+            </div>
+    </div></div>
+
+    <style>
+        .content{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .content img{
+            /* background-color: red; */
+        }
+        .box{
+            margin: 60px 0px 100px 0px;
+            display: flex;
+            align-items: center;
+            transition: 0.3s ease-in-out;
+        }
+        .box:hover{
+            scale: 115%;
+            transform: translateY(-60px);
+            transform: translateX(20px);
+            
+        }
+        .heading{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium';
+        }
+        .sub-text{
+            font-size: large;
+
+        }
+        .divider{
+            background-color: #000;
+            height: 100px;
+            width: 5px;
+            margin: 0px 30px 0px 30px;
+            border-radius: 10px;
+        }
+    </style>
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+page bg- #2D033B
+section/blocks bg- #810CA8
+input bg- #C147E9
+button bh- #E5B8F4
